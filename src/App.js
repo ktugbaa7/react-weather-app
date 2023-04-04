@@ -1,16 +1,14 @@
 import './App.css';
 import { WeatherProvider } from './context/WeatherContext';
-import Search from "./components/Search/Search";
-import CityCard from './components/CityCard/CityCard';
-import WeatherForecast from "./components/WeatherForecast/WeatherForecast";
+import Container from './components/Container/Container';
+
+
 
 function App() {
   return (
     <WeatherProvider>
 
-      <Search />
-      <CityCard />
-      <WeatherForecast />
+      <Container />
       
     </WeatherProvider>
   );
