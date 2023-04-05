@@ -14,7 +14,7 @@ export const WeatherProvider = ({ children }) => {
 
 
   const dailyWeather = daysData?.list?.map((day, index) => {
-    if (index % 8 !== 0) 
+    if (index % 7 !== 0) 
     return null 
     return {
         date: day.dt_txt.slice(0, 10),

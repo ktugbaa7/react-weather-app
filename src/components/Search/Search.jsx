@@ -16,20 +16,21 @@ function Search() {
     });
   }
   return (
-    <div className="">
-      <form>
-        <label>Şehir seçiniz</label>
-        <select value={cityName.name} onChange={handleSearch}>
+    
+      <form className="flex flex-col justify-center items-center py-12">
+        <h1 className=" text-6xl mb-14 font-bold text-fuchsia-950">Weather App</h1>
+        <label className=" text-2xl mb-4">Şehir seçiniz</label>
+        <select className="w-80 h-12 px-2 font-medium rounded-md shadow-xl border-2 border-violet-500" value={cityName.name} onChange={handleSearch}>
           {cities?.map((item, i) => {
             return (
-              <option value={item.name} key={i}> 
+              <option className="text-fuchsia-950" value={item.name} key={i}> 
                 {item.name}
               </option>
             );
           })}
         </select>
       </form>
-    </div>
+    
   );
 }
 
