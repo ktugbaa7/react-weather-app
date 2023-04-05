@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+React, Hooks, Context Api, OpenWeatherMap Api, Axios, Async-await, Tailwind, Responsive
+
+
+<img src="https://raw.githubusercontent.com/ktugbaa7/react-weather-app/master/weatehrapp.png" width="auto">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
