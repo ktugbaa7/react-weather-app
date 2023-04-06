@@ -1,5 +1,7 @@
 React, Hooks, Context Api, OpenWeatherMap Api, Axios, Async-await, Tailwind, Responsive
+
 www.patika.dev 
+Projelerim geliştirilmeye ve tavsiyelere açıktır. İletişime geçin !
 
 <img src="https://raw.githubusercontent.com/ktugbaa7/react-weather-app/master/weatehrapp.png" width="auto">
 
