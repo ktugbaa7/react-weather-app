@@ -1,3 +1,5 @@
+# Projede kullanılan yapı ve teknolojiler
+
 React, Hooks, Context Api, OpenWeatherMap Api, Axios, Async-await, Tailwind, Responsive
 
 www.patika.dev 
